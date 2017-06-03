@@ -1,13 +1,23 @@
 {
-  "name": "defpkg",
+  "name": "jjjtestjjj",
   "version": "1.0.0",
   "description": "my first pkg",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "str82Dbin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/str82Dbin/defpkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/str82Dbin/defpkg/issues"
+  },
+  "homepage": "https://github.com/str82Dbin/defpkg#readme"
 }
